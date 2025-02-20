@@ -57,7 +57,7 @@ graf_krl = {
 }
 
 def rute_terpendek_krl(graf, mulai, selesai):
-    antrian = deque([[mulai]])  # Antrian BFS berisi jalur yang ditemukan
+    antrian = deque([[mulai]])  # antrian BFS berisi jalur yang ditemukan
     stasiun_yang_telah_dikunjungi = set()  # Set untuk menyimpan stasiun yang sudah dikunjungi
 
     while antrian:
